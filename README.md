@@ -5,6 +5,8 @@ This project aims to enhance Minecraft gameplay by integrating Large Language Mo
 
 # Gemma 2b Training
 The script `gemma2b_training.py` is used to train a Fast Language Model using the UnSloth library. The model is trained on a dataset of Minecraft question-answer pairs.
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/3f596f87-3e52-46f4-af8b-c529dc7eb8d3">
+
 
 ## Dependencies
 
