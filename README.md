@@ -1,10 +1,15 @@
 # Enhancing Minecraft Gameplay with LLMs
 This project aims to enhance Minecraft gameplay by integrating Large Language Models (LLMs) as in-game AI assistants. We compare the capabilities of various-sized LLMs and proceed with the fine-tuning of smaller models on specific Minecraft knowledge. The role of the AI assistant is to provide real-time guidance, and strategy suggestions, contribute creative ideas and enhance the overall gaming experience. Our methodology involves embedding various-sized LLMs into the game environment and systematically analysing their impact on gameplay through quantitative metrics and qualitative user feedback. By comparing the efficiency, responsiveness, and creativity of each model, we identify strengths and limitations inherent to both state-of-the-art and local LLMs. In addition to this goal, we fine-tune a 2-billion parameters Gemma model, trained on the content of the Minecraft Wiki. This will equip the model with extensive knowledge about the game, making it an in-game expert. The findings of this study offer insights into the practical applications of LLMs in interactive environments and inform future developments in AI-assisted gaming experiences. Our comparative analysis revealed that GPT-4 turbo outperformed other models in terms of compliance, enjoyment, and believability, making it the most suitable model for the Minecraft environment.
 
-<img width="349" alt="image" src="https://github.com/user-attachments/assets/ddaec680-0f63-485b-94ac-141082e2135d">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ddaec680-0f63-485b-94ac-141082e2135d" alt="image" width="349">
+</p>
+
 
 # Gemma 2b Training
-The script `gemma2b_training.py` is used to train a Fast Language Model using the UnSloth library. The model is trained on a dataset of Minecraft question-answer pairs.
+The script `gemma2b_training.py` is used to train a Fast Language Model using the UnSloth library. The model is trained on a dataset of Minecraft question-answer pairs. 
+
+
 <img width="560" alt="image" src="https://github.com/user-attachments/assets/3f596f87-3e52-46f4-af8b-c529dc7eb8d3">
 
 
